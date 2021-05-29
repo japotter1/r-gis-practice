@@ -7,3 +7,5 @@
 <button onclick="window.location.href='Chicago_Food_Deserts.html'">Chicago Food Deserts</button>
 <br>
 <button onclick="window.location.href='Camden_Housing_Density_and_Cost.html'">Camden Housing Density and Cost</button>
+<br>
+<button onclick="window.location.href='Chicago_Poverty_Heat_Cooling.html'">Chicago Poverty, Heat, and Cooling</button>
