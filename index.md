@@ -1,4 +1,11 @@
-# Projects:
+### GIS Portfolio
+## Jada Potter
+
+Welcome! This repository contains a selection of GIS work I have completed for various classes at the University of Chicago. Though I began by only uploading maps based on work I had done in R, I later included a couple of R Markdown files, a PDF of a term paper that relied extensively on GIS analysis, and three map figures made in QGIS.
+
+All work in this repository is my own. Please note, however, that the name I use in some of the files is a name I no longer go by.
+
+## Projects
 
 ### Intro to GIS and Spatial Analysis
 
@@ -29,5 +36,3 @@
 <br>
 <button onclick="window.location.href='American_Cities/Map_3_V2.jpg'">Figure 3 - Race and Highway Placement in Minneapolis</button>
 <br>
-
-All work in this repository is my own. Please note, however, that the name I use in some of the files is a name I no longer go by.
