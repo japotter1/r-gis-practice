@@ -14,6 +14,6 @@
 
 ### GIS II
 
-<button onclick="window.location.href='GISII/Lab_2.html'">Lab 2</button>
+<button onclick="window.location.href='GISII/Lab_2.html'">Lab Assignment 2</button>
 <br>
-<button onclick="window.location.href='GISII/Assignment_2.html'">Assignment 2</button>
+<button onclick="window.location.href='GISII/Assignment_2.html'">ETL Workflow</button>
