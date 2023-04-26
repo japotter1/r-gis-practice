@@ -17,3 +17,6 @@
 <button onclick="window.location.href='GISII/Lab_2.html'">Lab Assignment 2</button>
 <br>
 <button onclick="window.location.href='GISII/Assignment_2.html'">ETL Workflow</button>
+<br>
+<button onclick="window.location.href='GISII/GLE_Station_Analysis.pdf'">Final Paper - Equitability and Viability of the Minneapolis Green Line Light Rail Extension
+</button>
