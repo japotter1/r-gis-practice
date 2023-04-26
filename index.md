@@ -29,3 +29,5 @@
 <br>
 <button onclick="window.location.href='American_Cities/Map_3_V2.jpg'">Figure 3 - Race and Highway Placement in Minneapolis</button>
 <br>
+
+All work in this repository is my own. Please note, however, that the name I use in some of the files is a name I no longer go by.
