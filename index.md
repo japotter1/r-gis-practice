@@ -20,3 +20,12 @@
 <br>
 <button onclick="window.location.href='GISII/GLE_Station_Analysis.pdf'">Final Paper - Equitability and Viability of the Minneapolis Green Line Light Rail Extension
 </button>
+
+### Roots of the Modern American City
+
+<button onclick="window.location.href='American_Cities/Map_1_V2.jpg'">Figure 1 - Race and Racially Restrictive Covenants in Hennepin County</button>
+<br>
+<button onclick="window.location.href='American_Cities/Map_2_V2.jpg'">Figure 2 - Race and Redlining in Minneapolis</button>
+<br>
+<button onclick="window.location.href='American_Cities/Map_3_V2.jpg'">Figure 3 - Race and Highway Placement in Minneapolis</button>
+<br>
