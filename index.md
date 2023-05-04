@@ -6,7 +6,7 @@ Welcome! This repository contains a selection of GIS work I have completed for v
 
 All work in this repository is my own. Please note, however, that the name I use in some of the files is a name I no longer go by.
 
-## Projects
+## Projects by Class
 
 ### Intro to GIS and Spatial Analysis
 
