@@ -20,6 +20,14 @@ All work in this repository is my own. Please note, however, that the name I use
 <br>
 <button onclick="window.location.href='Chicago_Poverty_Heat_Cooling.html'">Chicago Poverty, Heat, and Cooling</button>
 
+### GIS I
+
+<button onclick="window.location.href='GISI/GISI_Final.pdf'">Final Paper - Accessibility of Public Transportation in Chicago</button>
+<br>
+<button onclick="window.location.href='GISI/Map1.jpg'">Map 1 - Where Inaccessible CTA Stations Are</button>
+<br>
+<button onclick="window.location.href='GISI/Map2.jpg'">Map 2 - Ambulatory Difficulty and Poverty Near Inaccessible CTA Stations</button>
+
 ### GIS II
 
 <button onclick="window.location.href='GISII/Lab_2.html'">Lab Assignment 2</button>
