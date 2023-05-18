@@ -37,6 +37,10 @@ All work in this repository is my own. Please note, however, that the name I use
 <button onclick="window.location.href='GISII/GLE_Station_Analysis.pdf'">Final Paper - Equitability and Viability of the Minneapolis Green Line Light Rail Extension
 </button>
 
+### Spatial Data Science
+
+<button onclick="window.location.href='Spatial_Data_Science/SDS_Final.pdf'">Spatial Data Science Final - Effect of Racial Covenants and Exclusionary Zoning on Modern Day Black Population Distribution in Hennepin County</button>
+
 ### Roots of the Modern American City
 
 <button onclick="window.location.href='American_Cities/American_Cities_Final.pdf'">Final Paper - Suburbanization, Segregation, and the Perpetuation of Racial Inequality in the Northern United States</button>
