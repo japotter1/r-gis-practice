@@ -50,3 +50,7 @@ All work in this repository is my own. Please note, however, that the name I use
 <button onclick="window.location.href='American_Cities/Map_2_V2.jpg'">Figure 2 - Race and Redlining in Minneapolis</button>
 <br>
 <button onclick="window.location.href='American_Cities/Map_3_V2.jpg'">Figure 3 - Race and Highway Placement in Minneapolis</button>
+
+### SOSC - Global Society III
+
+<button onclick="window.location.href='SOSC_GS3/SOSC_GS3_Final_WebAppendix.html'">Final Paper - Global Mental Healthcare: A Question of Government or Culture - Web Appendix</button>
