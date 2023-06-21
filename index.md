@@ -2,31 +2,25 @@
 
 Jada Potter - Updated 4/26/23
 
-Welcome! This repository contains a selection of GIS work I have completed for various classes at the University of Chicago. Though I began by only uploading maps based on work I had done in R, I later included an ArcGIS Online map, a couple of R Markdown files, two PDFs of term papers that relied at least partially on GIS analysis, and three map figures made in QGIS.
+Welcome! This repository contains a selection of GIS work I have completed for various classes at the University of Chicago and for my work with Neighborhood Housing Services of Chicago. Though I began by only uploading maps based on work I had done in R, I later included maps in other format such as ArcGIS Online, R Markdown, PDFs of term papers that relied at least partially on GIS analysis, and map figures made in QGIS.
 
 All work in this repository is my own. Please note, however, that the name I use in some of the files is a name I no longer go by.
 
-## Projects by Class
+---
 
-### Intro to GIS and Spatial Analysis
+## Neighborhood Housing Services of Chicago
 
-<button onclick="window.location.href='MN_County_Tract_MHI.html'">Median Household Income in MN</button>
-<br>
-<button onclick="window.location.href='LA_NYC_HomicidesPerCensusTract_2015.html'">Homicides in LA and NYC</button>
-<br>
-<button onclick="window.location.href='Chicago_Food_Deserts.html'">Chicago Food Deserts</button>
-<br>
-<button onclick="window.location.href='Camden_Housing_Density_and_Cost.html'">Camden Housing Density and Cost</button>
-<br>
-<button onclick="window.location.href='Chicago_Poverty_Heat_Cooling.html'">Chicago Poverty, Heat, and Cooling</button>
+<button onclick="window.location.href='https://japotter1.github.io/nhs-policy-research-data/Appraisal_Equity_Map_Workflow_Abridged.html'">Illinois Appraisal Equity Analysis: Map and Regressions</button>
 
-### GIS I
+---
 
-<button onclick="window.location.href='GISI/GISI_Final.pdf'">Final Paper - Accessibility of Public Transportation in Chicago</button>
-<br>
-<button onclick="window.location.href='GISI/Map1.jpg'">Map 1 - Where Inaccessible CTA Stations Are</button>
-<br>
-<button onclick="window.location.href='GISI/Map2.jpg'">Map 2 - Ambulatory Difficulty and Poverty Near Inaccessible CTA Stations</button>
+## University of Chicago: Projects by Class
+
+*In reverse chronological order*
+
+### SOSC - Global Society III
+
+<button onclick="window.location.href='SOSC_GS3/SOSC_GS3_Final_WebAppendix.html'">Final Paper - Global Mental Healthcare: A Question of Government or Culture - Web Appendix</button>
 
 ### GIS II
 
@@ -36,6 +30,14 @@ All work in this repository is my own. Please note, however, that the name I use
 <br>
 <button onclick="window.location.href='GISII/GLE_Station_Analysis.pdf'">Final Paper - Equitability and Viability of the Minneapolis Green Line Light Rail Extension
 </button>
+
+### GIS I
+
+<button onclick="window.location.href='GISI/GISI_Final.pdf'">Final Paper - Accessibility of Public Transportation in Chicago</button>
+<br>
+<button onclick="window.location.href='GISI/Map1.jpg'">Map 1 - Where Inaccessible CTA Stations Are</button>
+<br>
+<button onclick="window.location.href='GISI/Map2.jpg'">Map 2 - Ambulatory Difficulty and Poverty Near Inaccessible CTA Stations</button>
 
 ### Spatial Data Science
 
@@ -51,6 +53,16 @@ All work in this repository is my own. Please note, however, that the name I use
 <br>
 <button onclick="window.location.href='American_Cities/Map_3_V2.jpg'">Figure 3 - Race and Highway Placement in Minneapolis</button>
 
-### SOSC - Global Society III
+### Intro to GIS and Spatial Analysis
 
-<button onclick="window.location.href='SOSC_GS3/SOSC_GS3_Final_WebAppendix.html'">Final Paper - Global Mental Healthcare: A Question of Government or Culture - Web Appendix</button>
+<button onclick="window.location.href='MN_County_Tract_MHI.html'">Median Household Income in MN</button>
+<br>
+<button onclick="window.location.href='LA_NYC_HomicidesPerCensusTract_2015.html'">Homicides in LA and NYC</button>
+<br>
+<button onclick="window.location.href='Chicago_Food_Deserts.html'">Chicago Food Deserts</button>
+<br>
+<button onclick="window.location.href='Camden_Housing_Density_and_Cost.html'">Camden Housing Density and Cost</button>
+<br>
+<button onclick="window.location.href='Chicago_Poverty_Heat_Cooling.html'">Chicago Poverty, Heat, and Cooling</button>
+
+
