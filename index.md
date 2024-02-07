@@ -21,7 +21,7 @@ All work in this repository is my own. Please note, however, that the name I use
 ### Cartographic Design and Geovisualization
 
 <button onclick="window.location.href='https://public.tableau.com/app/profile/jada.potter/viz/HealthDisparitiesinChicago/HealthDisparitiesinChicago'">Health Disparities in Chicago</button>
-
+<br>
 <button onclick="window.location.href='CVG/Cartography_Geovis_Final.pdf'">Final Class Portfolio</button>
 
 ### SOSC - Global Society III
