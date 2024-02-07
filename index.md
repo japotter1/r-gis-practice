@@ -18,6 +18,10 @@ All work in this repository is my own. Please note, however, that the name I use
 
 *In reverse chronological order*
 
+### Cartographic Design and Geovisualization
+
+<button onclick="window.location.href='https://public.tableau.com/app/profile/jada.potter/viz/HealthDisparitiesinChicago/HealthDisparitiesinChicago'">Health Disparities in Chicago</button>
+
 ### SOSC - Global Society III
 
 <button onclick="window.location.href='SOSC_GS3/SOSC_GS3_Final_WebAppendix.html'">Final Paper - Global Mental Healthcare: A Question of Government or Culture - Web Appendix</button>
