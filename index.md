@@ -1,6 +1,6 @@
 # GIS Portfolio
 
-*Jada Potter - Updated 6/21/23*
+*Jada Potter - Updated 2/6/2024*
 
 Welcome! This repository contains a selection of GIS work I have completed for various classes at the University of Chicago and for my work with Neighborhood Housing Services of Chicago. Though I began by only uploading maps based on work I had done in R, I later included maps in other format such as ArcGIS Online, R Markdown, PDFs of term papers that relied at least partially on GIS analysis, and map figures made in QGIS.
 
