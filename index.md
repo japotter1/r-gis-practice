@@ -2,7 +2,7 @@
 
 *Jada Potter - Updated 9/26/2024*
 
-Welcome! This repository contains a selection of GIS work I have completed for various classes at the University of Chicago and for my work with the UChicago Justice Project and Neighborhood Housing Services of Chicago. Though I began by only uploading maps based on work I had done in R, I later included maps in other format such as ArcGIS Online, R Markdown, PDFs of term papers that relied at least partially on GIS analysis, and map figures made in QGIS.
+Welcome! This repository contains a selection of GIS work I have completed for various classes at the University of Chicago and for my work with the UChicago Justice Project and Neighborhood Housing Services of Chicago. Though I began by only uploading maps based on work I had done in R, I later included maps in other formats such as ArcGIS Online, R Markdown, web maps, PDFs of term papers that relied at least partially on GIS analysis, and map figures made in QGIS.
 
 All work in this repository is my own. Please note, however, that the name I use in some of the files is a name I no longer go by.
 
