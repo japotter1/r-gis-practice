@@ -18,6 +18,10 @@ All work in this repository is my own. Please note, however, that the name I use
 
 *In reverse chronological order*
 
+### Web Mapping
+
+<button onclick="window.location.href='https://japotter1.github.io/web-mapping/'">Github repository for the class</button>
+
 ### Spatial Cluster Analysis
 
 <button onclick="window.location.href='Spatial_Cluster_Analysis/Final.pdf'">Final Paper - A Spatial Assessment of Lead Poisoning in Chicago</button>
