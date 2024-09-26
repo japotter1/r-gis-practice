@@ -18,6 +18,10 @@ All work in this repository is my own. Please note, however, that the name I use
 
 *In reverse chronological order*
 
+### Spatial Cluster Analysis
+
+<button onclick="window.location.href='Spatial_Cluster_Analysis/Final.pdf'">Final Paper: A Spatial Assessment of Lead Poisoning in Chicago</button>
+
 ### Cartographic Design and Geovisualization
 
 <button onclick="window.location.href='https://public.tableau.com/app/profile/jada.potter/viz/HealthDisparitiesinChicago/HealthDisparitiesinChicago'">Health Disparities in Chicago</button>
