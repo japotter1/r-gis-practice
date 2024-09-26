@@ -20,7 +20,7 @@ All work in this repository is my own. Please note, however, that the name I use
 
 ### Spatial Cluster Analysis
 
-<button onclick="window.location.href='Spatial_Cluster_Analysis/Final.pdf'">Final Paper: A Spatial Assessment of Lead Poisoning in Chicago</button>
+<button onclick="window.location.href='Spatial_Cluster_Analysis/Final.pdf'">Final Paper - A Spatial Assessment of Lead Poisoning in Chicago</button>
 
 ### Cartographic Design and Geovisualization
 
