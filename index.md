@@ -1,6 +1,6 @@
 # GIS Portfolio
 
-*Jada Potter - Updated 9/26/2024*
+*Jada Potter - Updated 7/28/2025*
 
 Welcome! This repository contains a selection of GIS work I have completed for various classes at the University of Chicago and for my work with the UChicago Justice Project and Neighborhood Housing Services of Chicago. Though I began by only uploading maps based on work I had done in R, I later included maps in other formats such as ArcGIS Online, R Markdown, web maps, PDFs of term papers that relied at least partially on GIS analysis, and map figures made in QGIS.
 
@@ -23,6 +23,14 @@ All work in this repository is my own. Please note, however, that the name I use
 ## University of Chicago: Projects by Class
 
 *In reverse chronological order*
+
+### B.A. Thesis
+
+<button onclick="window.location.href='https://knowledge.uchicago.edu/record/15526?ln=en&v=pdf'">B.A. Thesis - Transit in theory and in practice: Incorporating aspects of lived experience into measures of transit accessibility and justice</button>
+<br>
+<button onclick="window.location.href='Thesis/Thesis Poster.pdf'">Poster presented April 2025 in Pittsburgh and Chicago</button>
+<br>
+<button onclick="window.location.href='Thesis/CEGU Symposium Presentation - Jada Potter.pdf'">Presentation for UChicago CEGU Symposium in May 2025</button>
 
 ### Web Mapping
 
