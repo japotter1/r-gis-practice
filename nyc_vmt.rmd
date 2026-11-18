@@ -1,0 +1,100 @@
+---
+title: "Script for calculating VMT over time inside and outside the CRZ in NYC"
+author: Jada Potter
+date: "11/18/26"
+output:
+  html_document:
+    number_sections: true
+---
+
+```{r}
+library(arcgis)
+library(sf)
+library(tidyverse)
+library(tmap)
+library(zoo)
+library(ggplot2)
+```
+
+Load the CRZ bounds from ArcGIS Rest server:
+
+```{r}
+crz = arc_open("https://services3.arcgis.com/zmk8NL9pBXO4ybJQ/arcgis/rest/services/MTA_Congestion_Relief_Zone_Boundary/FeatureServer/0") %>%
+  arc_select
+
+# Simplify the feature and change crs
+crz = crz %>%
+  select() %>%
+  mutate(in_crz = T) %>%
+  st_transform(2263)
+```
+
+Load and clean the traffic volume counts (locally)
+
+```{r}
+tvc = read.csv("./Automated_Traffic_Volume_Counts_20261117.csv")
+tvc$Vol = gsub(",", "", tvc$Vol)
+tvc$Vol = as.integer(tvc$Vol)
+
+# Summarize traffic counts by month and make spatial
+tvc_bymonth = tvc %>%
+  select(-RequestID) %>%
+  group_by(SegmentID, Boro, street, fromSt, toSt, Direction, Yr, M, WktGeom) %>%
+  summarise(Vol_per_hr = mean(Vol)*4) %>% # note that Vol is taken in 15 min increments, so multiplying by 4 gets mean Vol per hour
+  st_as_sf(wkt = "WktGeom", crs = 2263) # guessed correctly because they often use this
+
+# Make a variable that's the month and year
+tvc_bymonth$YrM = as.yearmon(paste(tvc_bymonth$Yr, tvc_bymonth$M), "%Y %m")
+tvc_bymonth$Yr = NULL
+tvc_bymonth$M = NULL
+
+# Determine whether they're inside or outside the CRZ
+tvc_bymonth = tvc_bymonth %>%
+  st_join(crz)
+
+# Replace NA with FALSE
+tvc_bymonth$in_crz = replace_na(tvc_bymonth$in_crz, F)
+
+# View on an interactive map to verify we've got the measurements in the right locations
+tmap_mode("view")
+tm_shape(tvc_bymonth) + tm_dots(col = "in_crz", palette = "Set1")
+```
+
+Summarize totals by study area over time
+
+```{r}
+tvc_bymonth_all = tvc_bymonth %>%
+  st_drop_geometry() %>%
+  group_by(YrM) %>%
+  summarise(Vol_per_hr = mean(Vol_per_hr)) %>%
+  mutate(Area = "All")
+
+tvc_bymonth_in_crz = tvc_bymonth %>%
+  st_drop_geometry() %>%
+  filter(in_crz == T) %>%
+  group_by(YrM) %>%
+  summarise(Vol_per_hr = mean(Vol_per_hr)) %>%
+  mutate(Area = "CRZ")
+
+tvc_bymonth_out_crz = tvc_bymonth %>%
+  st_drop_geometry() %>%
+  filter(in_crz == F) %>%
+  group_by(YrM) %>%
+  summarise(Vol_per_hr = mean(Vol_per_hr)) %>%
+  mutate(Area = "Outside CRZ")
+
+tvc_bymonth_byArea = bind_rows(tvc_bymonth_in_crz, tvc_bymonth_out_crz)
+```
+
+Graphs
+
+```{r}
+ggplot(tvc_bymonth_byArea, aes(x=YrM, y=Vol_per_hr, group = Area)) +
+  geom_smooth(aes(colour = Area)) +
+  ggtitle("Average traffic counts per camera per hour over time, inside and outside the CRZ") +
+  scale_x_continuous(limits = c(2022, 2026.5)) +
+  scale_y_continuous(limits = c(0, 2000)) +
+  ylab("Avg. count per camera per hour") +
+  xlab("Year")
+```
+
